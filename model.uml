@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_dcVBkM7vEey_cdYb33B1Lg" name="NewModel">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_HcpPcM71Eey_cdYb33B1Lg" name="Cliente">
+    <eAnnotations xmi:id="_Hc8KYM71Eey_cdYb33B1Lg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_Hc8KYc71Eey_cdYb33B1Lg" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sgy3kM71Eey_cdYb33B1Lg" memberEnd="_sgy3kc71Eey_cdYb33B1Lg _sgy3ks71Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_sgy3kc71Eey_cdYb33B1Lg" type="_HcpPcM71Eey_cdYb33B1Lg" association="_sgy3kM71Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_sgy3ks71Eey_cdYb33B1Lg" association="_sgy3kM71Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_C-RxQM72Eey_cdYb33B1Lg" name="Consultar Evento">
+    <extend xmi:id="_ylumwM77Eey_cdYb33B1Lg" extendedCase="__awDUM75Eey_cdYb33B1Lg"/>
+    <extend xmi:id="_zD9a4M77Eey_cdYb33B1Lg" extendedCase="_OWe_oM72Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FDcuAM72Eey_cdYb33B1Lg" name="Gerir Perfil"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_IqKWAM72Eey_cdYb33B1Lg" name="Gerir Perfil Cliente">
+    <generalization xmi:id="_tG6NoM77Eey_cdYb33B1Lg" general="_FDcuAM72Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_MAk4MM72Eey_cdYb33B1Lg" name="Gerir Perfil Organizador">
+    <generalization xmi:id="_r80ZEM77Eey_cdYb33B1Lg" general="_FDcuAM72Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OWe_oM72Eey_cdYb33B1Lg" name="Gerir Eventos"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gBqn8M72Eey_cdYb33B1Lg" memberEnd="_gBqn8c72Eey_cdYb33B1Lg _gBzx4M72Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_gBqn8c72Eey_cdYb33B1Lg" type="_HcpPcM71Eey_cdYb33B1Lg" association="_gBqn8M72Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_gBzx4M72Eey_cdYb33B1Lg" type="_IqKWAM72Eey_cdYb33B1Lg" association="_gBqn8M72Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lpiPYM72Eey_cdYb33B1Lg" memberEnd="_lpiPYc72Eey_cdYb33B1Lg _lpiPYs72Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_lpiPYc72Eey_cdYb33B1Lg" type="_HcpPcM71Eey_cdYb33B1Lg" association="_lpiPYM72Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_lpiPYs72Eey_cdYb33B1Lg" type="_C-RxQM72Eey_cdYb33B1Lg" association="_lpiPYM72Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nRQbIM72Eey_cdYb33B1Lg" name="Organizador">
+    <eAnnotations xmi:id="_nRQbIc72Eey_cdYb33B1Lg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_nRQbIs72Eey_cdYb33B1Lg" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_o7TiIM72Eey_cdYb33B1Lg" memberEnd="_o7TiIc72Eey_cdYb33B1Lg _o7TiIs72Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_o7TiIc72Eey_cdYb33B1Lg" type="_nRQbIM72Eey_cdYb33B1Lg" association="_o7TiIM72Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_o7TiIs72Eey_cdYb33B1Lg" type="_MAk4MM72Eey_cdYb33B1Lg" association="_o7TiIM72Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qAj6AM72Eey_cdYb33B1Lg" memberEnd="_qAj6Ac72Eey_cdYb33B1Lg _qAj6As72Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_qAj6Ac72Eey_cdYb33B1Lg" type="_nRQbIM72Eey_cdYb33B1Lg" association="_qAj6AM72Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_qAj6As72Eey_cdYb33B1Lg" type="_C-RxQM72Eey_cdYb33B1Lg" association="_qAj6AM72Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tzgxwM73Eey_cdYb33B1Lg" memberEnd="_tzgxwc73Eey_cdYb33B1Lg _tzgxws73Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_tzgxwc73Eey_cdYb33B1Lg" type="_nRQbIM72Eey_cdYb33B1Lg" association="_tzgxwM73Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_tzgxws73Eey_cdYb33B1Lg" type="_OWe_oM72Eey_cdYb33B1Lg" association="_tzgxwM73Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Fwl18M74Eey_cdYb33B1Lg" name="Utilizador">
+    <eAnnotations xmi:id="_Fwl18c74Eey_cdYb33B1Lg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_Fwl18s74Eey_cdYb33B1Lg" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_dW5Y4M74Eey_cdYb33B1Lg" name="Cliente">
+    <eAnnotations xmi:id="_dW5_8M74Eey_cdYb33B1Lg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_dW5_8c74Eey_cdYb33B1Lg" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_TPMToM75Eey_cdYb33B1Lg" general="_Fwl18M74Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_fGg8YM74Eey_cdYb33B1Lg" name="Organizador">
+    <eAnnotations xmi:id="_fGg8Yc74Eey_cdYb33B1Lg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_fGhjcM74Eey_cdYb33B1Lg" key="Human"/>
+    </eAnnotations>
+    <generalization xmi:id="_TzwZQM75Eey_cdYb33B1Lg" general="_Fwl18M74Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_hXe5cM74Eey_cdYb33B1Lg" name="Consultar Registo">
+    <include xmi:id="_rkUg4M74Eey_cdYb33B1Lg" addition="_rBguwM74Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rBguwM74Eey_cdYb33B1Lg" name="Login"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_u-I8YM74Eey_cdYb33B1Lg" name="Atualizar Perfil">
+    <extend xmi:id="_T0rUYM77Eey_cdYb33B1Lg" extendedCase="_hXe5cM74Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_xAE-8M74Eey_cdYb33B1Lg" name="Remover Perfil">
+    <extend xmi:id="_pYDWQM77Eey_cdYb33B1Lg" extendedCase="_hXe5cM74Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0cGZ4M74Eey_cdYb33B1Lg" memberEnd="_0cGZ4c74Eey_cdYb33B1Lg _0cGZ4s74Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_0cGZ4c74Eey_cdYb33B1Lg" type="_Fwl18M74Eey_cdYb33B1Lg" association="_0cGZ4M74Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_0cGZ4s74Eey_cdYb33B1Lg" type="_hXe5cM74Eey_cdYb33B1Lg" association="_0cGZ4M74Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9k_RAM74Eey_cdYb33B1Lg" name="Criar Registo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__ggigM74Eey_cdYb33B1Lg" name="Criar Registo cliente ">
+    <generalization xmi:id="_Z8c10M75Eey_cdYb33B1Lg" general="_9k_RAM74Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_FFuekM75Eey_cdYb33B1Lg" name="Criar registo Organizador">
+    <generalization xmi:id="_aS1VgM75Eey_cdYb33B1Lg" general="_9k_RAM74Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QGD_gM75Eey_cdYb33B1Lg" memberEnd="_QGD_gc75Eey_cdYb33B1Lg _QGD_gs75Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_QGD_gc75Eey_cdYb33B1Lg" type="_fGg8YM74Eey_cdYb33B1Lg" association="_QGD_gM75Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_QGD_gs75Eey_cdYb33B1Lg" type="__ggigM74Eey_cdYb33B1Lg" association="_QGD_gM75Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QnvwQM75Eey_cdYb33B1Lg" memberEnd="_QnvwQc75Eey_cdYb33B1Lg _QnvwQs75Eey_cdYb33B1Lg">
+    <ownedEnd xmi:id="_QnvwQc75Eey_cdYb33B1Lg" type="_dW5Y4M74Eey_cdYb33B1Lg" association="_QnvwQM75Eey_cdYb33B1Lg"/>
+    <ownedEnd xmi:id="_QnvwQs75Eey_cdYb33B1Lg" type="_FFuekM75Eey_cdYb33B1Lg" association="_QnvwQM75Eey_cdYb33B1Lg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__awDUM75Eey_cdYb33B1Lg" name="Gerir Bilhete"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fVQ64M94EeyuDZ1tFMRXGA" memberEnd="_fVar4M94EeyuDZ1tFMRXGA _fVar4c94EeyuDZ1tFMRXGA">
+    <ownedEnd xmi:id="_fVar4M94EeyuDZ1tFMRXGA" type="_HcpPcM71Eey_cdYb33B1Lg" association="_fVQ64M94EeyuDZ1tFMRXGA"/>
+    <ownedEnd xmi:id="_fVar4c94EeyuDZ1tFMRXGA" type="__awDUM75Eey_cdYb33B1Lg" association="_fVQ64M94EeyuDZ1tFMRXGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_m2QAEM94EeyuDZ1tFMRXGA" name="Validar email"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tLXIAM94EeyuDZ1tFMRXGA" memberEnd="_tLXIAc94EeyuDZ1tFMRXGA _tLXIAs94EeyuDZ1tFMRXGA">
+    <ownedEnd xmi:id="_tLXIAc94EeyuDZ1tFMRXGA" type="_Fwl18M74Eey_cdYb33B1Lg" association="_tLXIAM94EeyuDZ1tFMRXGA"/>
+    <ownedEnd xmi:id="_tLXIAs94EeyuDZ1tFMRXGA" type="_m2QAEM94EeyuDZ1tFMRXGA" association="_tLXIAM94EeyuDZ1tFMRXGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_uBs6IM94EeyuDZ1tFMRXGA" name="Servidor de email"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xSfVcM94EeyuDZ1tFMRXGA" memberEnd="_xSfVcc94EeyuDZ1tFMRXGA _xSfVcs94EeyuDZ1tFMRXGA">
+    <ownedEnd xmi:id="_xSfVcc94EeyuDZ1tFMRXGA" type="_m2QAEM94EeyuDZ1tFMRXGA" association="_xSfVcM94EeyuDZ1tFMRXGA"/>
+    <ownedEnd xmi:id="_xSfVcs94EeyuDZ1tFMRXGA" type="_uBs6IM94EeyuDZ1tFMRXGA" association="_xSfVcM94EeyuDZ1tFMRXGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_oVl2cM95EeyuDZ1tFMRXGA" name="Pagar Bilhete"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pfoAoM95EeyuDZ1tFMRXGA" memberEnd="_pfoAoc95EeyuDZ1tFMRXGA _pfoAos95EeyuDZ1tFMRXGA">
+    <ownedEnd xmi:id="_pfoAoc95EeyuDZ1tFMRXGA" type="_HcpPcM71Eey_cdYb33B1Lg" association="_pfoAoM95EeyuDZ1tFMRXGA"/>
+    <ownedEnd xmi:id="_pfoAos95EeyuDZ1tFMRXGA" type="_oVl2cM95EeyuDZ1tFMRXGA" association="_pfoAoM95EeyuDZ1tFMRXGA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_uTq-cM95EeyuDZ1tFMRXGA" name="Linkar com Redes Sociais"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0zBngM95EeyuDZ1tFMRXGA" memberEnd="_0zBngc95EeyuDZ1tFMRXGA _0zBngs95EeyuDZ1tFMRXGA">
+    <ownedEnd xmi:id="_0zBngc95EeyuDZ1tFMRXGA" type="_Fwl18M74Eey_cdYb33B1Lg" association="_0zBngM95EeyuDZ1tFMRXGA"/>
+    <ownedEnd xmi:id="_0zBngs95EeyuDZ1tFMRXGA" type="_uTq-cM95EeyuDZ1tFMRXGA" association="_0zBngM95EeyuDZ1tFMRXGA"/>
+  </packagedElement>
+</uml:Model>
