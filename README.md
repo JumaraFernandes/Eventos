@@ -1,7 +1,9 @@
 # Eventos
- Documentação de especificação de requisitos.
+
+Documentação de especificação de requisitos.
  
- Trabalho de universidade, desenvolvimento de um documento de especificação de requisitos. Sobre eventos
+Trabalho de universidade, desenvolvimento de um documento de especificação de requisitos sobre eventos.
+O projrto a modelar é um aplicativos, onde os cliente podem comprar bilhete para festivais, concertos, entre outros. Em organizador colocam bilhetes a venda.
  
 ## :hammer: Lista dos site à desenvolver:
 - [x] Descrição
