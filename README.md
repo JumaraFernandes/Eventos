@@ -8,7 +8,7 @@ O projrto a modelar é um aplicativos, onde os cliente podem comprar bilhete par
 ## :hammer: Lista dos site à desenvolver:
 - [x] Descrição
 - [x] Requisitos Funcionais
-- [ ] Diagrama casos de uso
+- [x] Diagrama casos de uso
 - [ ] Cenarios
 - [ ] Layout Grafico
 - [ ] Diagramas de Atividades
